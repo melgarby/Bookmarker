@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@100&family=Montserrat&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@100&family=Montserrat&family=Pacifico&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@100&family=Montserrat&family=PT+Sans+Caption&family=Pacifico&family=Righteous&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container w-75">
+        <div class="main  d-flex justify-content-center my-3 p-4">
+            <h1 class=" my-4">Bookmarker</h1>
+        </div>
+        <div class=" input my-4">  
+            <h2>Bookmark your favorite sites</h2>
+            <form class="form">
+                    <label for="bookName">Book Site</label>
+                    <input type="text" id="bookName" class="form-control" placeholder="Bookmark Name">
+                    <label for="bookUrl">Site URL</label>
+                    <input type="text" id="bookUrl" class="form-control" placeholder="Website URL">
+                    <button type="button" id="btn" class="btn my-4 btn-info  px-4">Submit</button>
+                </form>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tableRaw">
+               
+            </tbody>
+        </table>
+
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

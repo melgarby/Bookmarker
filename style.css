@@ -1,0 +1,26 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: black;
+}
+.main{
+    border-bottom:dashed ;
+}
+.input{
+    border-bottom: dashed;
+}
+h2{
+    text-align: center;
+    color: #A0AB4C;
+    font-size: 25px;
+    font-family: 'Righteous', sans-serif;
+}
+label{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    font-weight: 600px;
+}
